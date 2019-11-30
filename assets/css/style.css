@@ -163,6 +163,28 @@ footer {
 
 }
 
+.gallery {
+    width:200px;
+    height: 200px;
+    
+    
+}
+
+.link-text {
+    width:200px;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin-left:5%;
+    position: relative;
+    top: -40px;
+}
+
+.gallery-img {
+    width: 200px;
+    height: 200px;
+    margin-left:5%;
+}
+
 #p1 img {
     float: left;
     margin-top: 20px;
