@@ -69,16 +69,10 @@ textarea {
     font-size: 16px;
 }
 
-#email {
+#email, #full-name {
     width:90%;
     margin-left: 5%;
     margin-right:5%;
-}
-
-#full-name {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 #name {
@@ -128,23 +122,7 @@ footer {
     display: inline;
 }
 
-.portfolio {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    width: 100px;
-    padding: 20px;
-    float: right;
-}
-
-.contact {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    width: 100px;
-    padding: 20px;
-    float: right;
-}
-
-.about {
+.portfolio, .contact, .about {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 100px;
