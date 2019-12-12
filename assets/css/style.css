@@ -4,7 +4,6 @@
     padding: 0%;
 }
 
-
 body {
     background-image: url(../images/connectwork.png);
     background-color: gray; 
@@ -108,7 +107,9 @@ nav {
 }
 
 footer {
-    position: sticky;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
     border-top: 8px solid #4aaaa5;
     text-align: center;
     background-color: #666666;
