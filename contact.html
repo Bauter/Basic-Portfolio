@@ -6,7 +6,14 @@
 
         <title>Contact</title>
         <meta charset="UTF-8">
+        <!--CSS file link-->
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Jquery CDN link-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!--JS file link-->
+        <script src="assets/js/app.js"></script>
 
     </head>
 
@@ -53,13 +60,15 @@
                 <form action="https://formspree.io/xgekppqr" method="POST" id="ajax_form">
                     
                     <label for="full-name">Name</label>
-                    <input type="text" id="full-name" required>
+                    <input type="text" name="name" id="fullName">
+                    <br>
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" required>
+                    <input type="text" name="_replyto" id="email">
+                    <br>
 
-                    <label for="message">Message</label>
-                    <textarea required></textarea>
+                    <label for="message" >Message</label>
+                    <textarea name="message" id="message" ></textarea>
 
                     <input id="submit" type="submit" value="Submit">
 

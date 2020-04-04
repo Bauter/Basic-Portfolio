@@ -68,7 +68,7 @@ textarea {
     font-size: 16px;
 }
 
-#email, #full-name {
+#email, #fullName {
     width:90%;
     margin-left: 5%;
     margin-right:5%;
@@ -185,6 +185,8 @@ footer {
     height:10px;
 }
 
-
+#ajax_form {
+    display:  inline block;
+}
 
 
